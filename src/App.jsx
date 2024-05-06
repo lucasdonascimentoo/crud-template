@@ -1,11 +1,18 @@
+import { BrowserRouter } from "react-router-dom";
+import { Router } from './Router' 
 import { Header } from "./components/Header";
-import { Feed } from "./pages/Feed";
+import './styles.css'
 
 function App() {
   return (
     <>
+      
+      <BrowserRouter>
       <Header />
-      <Feed />
+        <div className="app">
+          <Router/>
+          </div>
+      </BrowserRouter>
     </>
   );
 }
