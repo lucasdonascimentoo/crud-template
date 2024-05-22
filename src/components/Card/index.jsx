@@ -2,7 +2,7 @@ import "./styles.css";
 import { MdDelete } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-export function Card(post, onDeletePost) {
+export function Card({post, onDeletePost}) {
 
   const navigate = useNavigate()
 
@@ -13,7 +13,7 @@ export function Card(post, onDeletePost) {
         <MdDelete onClick={()=> onDeletePost(post.id)}size={28} color="#ed4337"/>
       </header>
       <p>
-        {post.telfone}
+        {post.telefone}
       </p>
       <p>
         {post.email}
@@ -22,7 +22,7 @@ export function Card(post, onDeletePost) {
 
       <div className="buttonsContainer">
         <button onClick={()=> navigate(`/post/${post.id}`)}>Ver Cadastro</button>
-        <button onClick={()=> navigate(`/updatePost${post.id}`)}>Editar</button>
+        <button onClick={()=> navigate(`/updatePost/${post.id}`)}>Editar</button>
       </div>
     </article>
   );

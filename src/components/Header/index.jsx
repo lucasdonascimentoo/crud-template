@@ -1,5 +1,5 @@
 import './styles.css'
-import Logo from '../../../public/logo-adc.svg' 
+import Logo from '../../../public/logouni.png' 
 import { useNavigate } from 'react-router-dom'
 export function Header() {
 

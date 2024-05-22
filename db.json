@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "5831",
+      "nome": "Lucas rodrigues",
+      "telefone": "(81) 9811-2280",
+      "email": "llucas@hgoas.com"
+    },
+    {
+      "id": "244a",
+      "nome": "olavo",
+      "telefone": "1231313",
+      "email": "olavo@aa"
+    }
+  ]
+}

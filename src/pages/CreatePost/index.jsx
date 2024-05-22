@@ -10,7 +10,7 @@ export function CreatePost() {
   function handleCreatePost(data) {
     api.post('/posts',data)
     console.log('Criado com sucesso!')
-    navigate('/')
+    location.reload(navigate('/'))
     // reset()
 }
 

@@ -9,8 +9,8 @@ export function UpdatePost() {
     const { id } = useParams()
 
     function handleUpdatePost(data){
-        api.put(`/post/${id}`,data)
-        navigate('/')
+        api.put(`/posts/${id}`,data)
+        location.reload(navigate('/')) 
     }
 
 

@@ -19,7 +19,7 @@ export function OnePost() {
   return (
     <article className="onePostContainer">
       <h2>{post.title}</h2>
-      <p>{post.name}</p>
+      <p>{post.nome}</p>
       <p>{post.telefone}</p>
       <p>{post.email}</p>
       
